@@ -1,0 +1,195 @@
+(gnr638) C:\Users\Aparna Agrawal\Desktop\GNR638\Assign1\v2-Scene-Recognition-with-Bag-of-Words-master\Scene-Recognition-with-Bag-of-Words-master\code>python proj3.py
+Getting paths and labels for all train, val and test data
+No existing visual word vocabulary found. Computing one from training images
+
+Extract SIFT features
+Compute vocab
+It takes 139.32 seconds to compute vocab.
+Vocab pkl created
+Constructing bags of SIFTs...
+Performing PCA...
+Performing t-SNE...
+C:\GNURadio\envs\gnr638\lib\site-packages\sklearn\manifold\_t_sne.py:783: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  FutureWarning,
+It takes 3488.57 seconds to construct bags of SIFTs.
+Constructing bags of SIFTs...
+Performing PCA...
+Performing t-SNE...
+C:\GNURadio\envs\gnr638\lib\site-packages\sklearn\manifold\_t_sne.py:783: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  FutureWarning,
+It takes 146.99 seconds to construct bags of SIFTs.
+Constructing bags of SIFTs...
+Performing PCA...
+Performing t-SNE...
+C:\GNURadio\envs\gnr638\lib\site-packages\sklearn\manifold\_t_sne.py:783: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  FutureWarning,
+It takes 342.56 seconds to construct bags of SIFTs.
+C:\GNURadio\envs\gnr638\lib\site-packages\sklearn\svm\_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+For number of codewords =  100 Accuracy =  0.47619047619047616
+agricultural: 0.0
+airplane: 1.0
+baseballdiamond: 0.25
+beach: 0.75
+buildings: 0.25
+chaparral: 1.0
+denseresidential: 1.0
+forest: 0.75
+freeway: 0.5
+golfcourse: 0.25
+harbor: 1.0
+intersection: 0.5
+mediumresidential: 0.0
+mobilehomepark: 0.75
+overpass: 0.25
+parkinglot: 1.0
+river: 0.5
+runway: 0.25
+sparseresidential: 0.0
+storagetanks: 0.0
+tenniscourt: 0.0
+No existing visual word vocabulary found. Computing one from training images
+
+Extract SIFT features
+Compute vocab
+It takes 205.27 seconds to compute vocab.
+Vocab pkl created
+Constructing bags of SIFTs...
+Performing PCA...
+Performing t-SNE...
+C:\GNURadio\envs\gnr638\lib\site-packages\sklearn\manifold\_t_sne.py:783: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  FutureWarning,
+It takes 3834.24 seconds to construct bags of SIFTs.
+Constructing bags of SIFTs...
+Performing PCA...
+Performing t-SNE...
+C:\GNURadio\envs\gnr638\lib\site-packages\sklearn\manifold\_t_sne.py:783: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  FutureWarning,
+It takes 165.78 seconds to construct bags of SIFTs.
+Constructing bags of SIFTs...
+Performing PCA...
+Performing t-SNE...
+C:\GNURadio\envs\gnr638\lib\site-packages\sklearn\manifold\_t_sne.py:783: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  FutureWarning,
+It takes 388.97 seconds to construct bags of SIFTs.
+C:\GNURadio\envs\gnr638\lib\site-packages\sklearn\svm\_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+For number of codewords =  150 Accuracy =  0.47619047619047616
+agricultural: 0.0
+airplane: 0.75
+baseballdiamond: 0.5
+beach: 0.25
+buildings: 0.25
+chaparral: 0.75
+denseresidential: 1.0
+forest: 0.75
+freeway: 0.5
+golfcourse: 0.25
+harbor: 1.0
+intersection: 0.75
+mediumresidential: 0.0
+mobilehomepark: 0.75
+overpass: 0.0
+parkinglot: 1.0
+river: 0.75
+runway: 0.5
+sparseresidential: 0.0
+storagetanks: 0.0
+tenniscourt: 0.25
+No existing visual word vocabulary found. Computing one from training images
+
+Extract SIFT features
+Compute vocab
+It takes 263.70 seconds to compute vocab.
+Vocab pkl created
+Constructing bags of SIFTs...
+Performing PCA...
+Performing t-SNE...
+C:\GNURadio\envs\gnr638\lib\site-packages\sklearn\manifold\_t_sne.py:783: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  FutureWarning,
+It takes 3396.53 seconds to construct bags of SIFTs.
+Constructing bags of SIFTs...
+Performing PCA...
+Performing t-SNE...
+C:\GNURadio\envs\gnr638\lib\site-packages\sklearn\manifold\_t_sne.py:783: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  FutureWarning,
+It takes 143.11 seconds to construct bags of SIFTs.
+Constructing bags of SIFTs...
+Performing PCA...
+Performing t-SNE...
+C:\GNURadio\envs\gnr638\lib\site-packages\sklearn\manifold\_t_sne.py:783: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  FutureWarning,
+It takes 395.86 seconds to construct bags of SIFTs.
+C:\GNURadio\envs\gnr638\lib\site-packages\sklearn\svm\_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+For number of codewords =  200 Accuracy =  0.44047619047619047
+agricultural: 0.0
+airplane: 1.0
+baseballdiamond: 0.25
+beach: 0.25
+buildings: 0.0
+chaparral: 0.75
+denseresidential: 1.0
+forest: 0.75
+freeway: 0.25
+golfcourse: 0.25
+harbor: 1.0
+intersection: 0.75
+mediumresidential: 0.0
+mobilehomepark: 0.5
+overpass: 0.0
+parkinglot: 1.0
+river: 0.25
+runway: 0.5
+sparseresidential: 0.5
+storagetanks: 0.25
+tenniscourt: 0.0
+No existing visual word vocabulary found. Computing one from training images
+
+Extract SIFT features
+Compute vocab
+It takes 334.80 seconds to compute vocab.
+Vocab pkl created
+Constructing bags of SIFTs...
+Performing PCA...
+Performing t-SNE...
+C:\GNURadio\envs\gnr638\lib\site-packages\sklearn\manifold\_t_sne.py:783: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  FutureWarning,
+It takes 4796.91 seconds to construct bags of SIFTs.
+Constructing bags of SIFTs...
+Performing PCA...
+Performing t-SNE...
+C:\GNURadio\envs\gnr638\lib\site-packages\sklearn\manifold\_t_sne.py:783: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  FutureWarning,
+It takes 144.39 seconds to construct bags of SIFTs.
+Constructing bags of SIFTs...
+Performing PCA...
+Performing t-SNE...
+C:\GNURadio\envs\gnr638\lib\site-packages\sklearn\manifold\_t_sne.py:783: FutureWarning: The default initialization in TSNE will change from 'random' to 'pca' in 1.2.
+  FutureWarning,
+It takes 326.34 seconds to construct bags of SIFTs.
+C:\GNURadio\envs\gnr638\lib\site-packages\sklearn\svm\_base.py:1208: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  ConvergenceWarning,
+For number of codewords =  250 Accuracy =  0.5595238095238095
+agricultural: 0.0
+airplane: 1.0
+baseballdiamond: 0.25
+beach: 0.5
+buildings: 0.5
+chaparral: 0.75
+denseresidential: 1.0
+forest: 0.75
+freeway: 0.5
+golfcourse: 0.25
+harbor: 1.0
+intersection: 0.75
+mediumresidential: 0.0
+mobilehomepark: 0.75
+overpass: 0.25
+parkinglot: 1.0
+river: 0.25
+runway: 0.5
+sparseresidential: 0.75
+storagetanks: 0.25
+tenniscourt: 0.75
+For number of codewords =  250 , we obtain maximum validation accuracy and Test Accuracy =  0.4880952380952381
