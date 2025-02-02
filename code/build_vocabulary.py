@@ -22,16 +22,19 @@ def build_vocabulary(image_paths, vocab_size):
     sift = cv2.SIFT_create()
 
     for path in image_paths:
-        # Read image using cv2 and convert to grayscale
-        img = cv2.imread(path, cv2.IMREAD_GRAYSCALE)
-        
+        # Read the image using cv2 in color (BGR)
+        img = cv2.imread(path, cv2.IMREAD_COLOR)
+
         # Check if image is loaded correctly
         if img is None:
             print(f"Error: Could not load image {path}")
             continue
 
+        # Convert the BGR image to RGB (if needed)
+        img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+
         # Detect and compute SIFT descriptors
-        keypoints, descriptors = sift.detectAndCompute(img, None)
+        keypoints, descriptors = sift.detectAndCompute(img_rgb, None)
         
         # Add descriptors to the bag of features if available
         if descriptors is not None:

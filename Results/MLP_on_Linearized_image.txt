@@ -1,0 +1,14 @@
+For MLP trained on linearized image:
+
+FOR CASE ACTIVATION = relu, 
+
+Learning Rate   Max Iterations  Test Accuracy
+=============================================
+0.1             500             20.24%
+0.1             1000            25.95%
+0.08            500             23.33%
+0.08            1000            22.62%
+0.03            500             21.43%
+0.03            1000            19.05%
+0.01            500             20.71%
+0.01            1000            24.05%
